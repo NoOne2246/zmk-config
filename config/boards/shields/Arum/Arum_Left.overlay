@@ -1,0 +1,15 @@
+#include "Arum.dtsi"
+
+&default_transform{
+    col-offset=<6>;
+};
+
+kscan0 {
+    col-gpios   = <&shift_reg 6 GPIO_ACTIVE_HIGH>
+                , <&shift_reg 5 GPIO_ACTIVE_HIGH>
+                , <&shift_reg 4 GPIO_ACTIVE_HIGH>
+                , <&shift_reg 3 GPIO_ACTIVE_HIGH>
+                , <&shift_reg 2 GPIO_ACTIVE_HIGH>
+                , <&shift_reg 1 GPIO_ACTIVE_HIGH>
+                ;
+};
