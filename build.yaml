@@ -18,4 +18,4 @@
 #
 ---
 board: [ "seeeduino_xiao_ble" ]
-shield: [ "Arum_left", "Arum_right" ]
+shield: [ "arum_left", "arum_right" ]
