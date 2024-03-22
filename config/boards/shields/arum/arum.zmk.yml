@@ -3,7 +3,7 @@ id: arum
 name: Arum
 type: shield
 url: https://github.com/NoOne2246/
-requires: [pro_micro]
+requires: [seeeduino_xiao_ble]
 features:
   - keys
 siblings:
