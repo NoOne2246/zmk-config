@@ -10,6 +10,12 @@
     tapping-term-ms = <200>;
 };
 
+&sk {
+    release-after-ms = <5000>;
+    quick-release;
+    /delete-property/ ignore-modifiers;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
