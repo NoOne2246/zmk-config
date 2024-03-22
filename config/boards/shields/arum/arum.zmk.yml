@@ -1,0 +1,11 @@
+file_format: "1"
+id: arum
+name: Arum
+type: shield
+url: https://github.com/NoOne2246/
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - arum_left
+  - arum_right
