@@ -1,5 +1,5 @@
 config SHIELD_ARUM_LEFT
-    def_bool $(shields_list_contains,Arum_left)
+    def_bool $(shields_list_contains,arum_left)
 
 config SHIELD_ARUM_RIGHT
-    def_bool $(shields_list_contains,Arum_right)
+    def_bool $(shields_list_contains,arum_right)

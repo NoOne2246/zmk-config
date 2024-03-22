@@ -9,4 +9,8 @@ endif
 if SHIELD_ARUM_LEFT || SHIELD_ARUM_RIGHT
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
+
+config SPI
+    default y
+
 endif

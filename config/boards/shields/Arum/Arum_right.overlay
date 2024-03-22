@@ -1,4 +1,4 @@
-#include "Arum.dtsi"
+#include "arum.dtsi"
 
 &default_transform{
     col-offset=<6>;

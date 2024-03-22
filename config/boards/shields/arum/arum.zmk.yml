@@ -1,0 +1,12 @@
+file_format: "1"
+id: arum
+name: Arum
+type: shield
+url: https://github.com/foostan/crkbd/
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+  - display
+siblings:
+  - arum_left
+  - arum_right
