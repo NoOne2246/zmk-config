@@ -81,6 +81,7 @@
     &kt LSHIFT &kt LCTRL &kp LC(Z) &kp LC(X) &kp LC(C) &kp LC(V)                               &none     &none     &none     &none     &none     &none
                          &kt LGUI  &kt LALT  &trans    &trans    &trans               &none    &none                         &none 
             >;
+        };
         
         BLUETOOTH_layer {
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -94,7 +95,5 @@
     &none     &none     &kp C_PREV &kp C_MUTE   &none        &sys_reset                               &bt BT_CLR   &none        &none        &none        &none         &sys_reset
                         &none      &none        &none        &none     &none                  &none   &none                                  &none 
             >;
-
         };
-    };
 };
