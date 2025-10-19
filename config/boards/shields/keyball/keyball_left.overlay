@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "keyball44.dtsi"
+#include "keyball.dtsi"
 
 &kscan0 {
 	col-gpios

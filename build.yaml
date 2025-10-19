@@ -22,10 +22,10 @@
 # board: [ "nice_nano_v2" ]
 # shield: [ "keyball_left", "keyball_right" ]
 include:
-  - board: seeeduino_xiao_ble
-    shield: arum_left
-  - board: seeeduino_xiao_ble
-    shield: arum_right
+  # - board: seeeduino_xiao_ble
+  #   shield: arum_left
+  # - board: seeeduino_xiao_ble
+  #   shield: arum_right
   - board: nice_nano_v2
     shield: keyball_left
   - board: nice_nano_v2
