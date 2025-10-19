@@ -1,0 +1,16 @@
+file_format: "1"
+id: keyball
+name: Keyball44
+type: shield
+url: https://github.com/NoOne2246/
+requires:
+  - pro_micro
+exposes:
+  - i2c_oled
+features:
+  - display
+  - keys
+  - pointer
+siblings:
+  - keyball_left
+  - keyball_right
