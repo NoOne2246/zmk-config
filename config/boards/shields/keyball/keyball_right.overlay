@@ -55,7 +55,6 @@
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 	    automouse-layer = <3>;
-        automouse-layer-timeout-ms = <3000>;
 
         /*   reference if intends to map the behaviors more than 1 layer   */
         // scroll-layers = <2 3>;
