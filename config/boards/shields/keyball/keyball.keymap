@@ -64,8 +64,8 @@
             bindings = <
     &kp TAB      &kp Q     &kp W    &kp E     &kp R     &kp T                                      &kp Y     &kp U     &kp I     &kp O     &kp P     &mo BLUE
     &lt BLUE ESC &kp A     &kp S    &kp D     &kp F     &kp G                                      &kp H     &kp J     &kp K     &kp L     &kp SEMI  &kp SQT
-    &sk LSHIFT   &sk LCTRL &kp X    &kp C     &kp V     &kp B                                      &kp B     &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH
-                           &sk LGUI &sk LALT  &kp BSPC  &lt NUM DEL &kp RET               &kp TAB  &kp SPACE                     &mo FNC
+    &sk LSHIFT   &sk LCTRL &kp Z    &kp X     &kp C     &kp V                                      &kp B     &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH
+                           &sk LGUI &sk LALT  &kp BSPC  &lt NUM DEL &kp RET               &kp RET  &kp SPACE                     &mo FNC
             >;
         };
 
@@ -96,7 +96,7 @@
     &kp KP_NLCK &kp VOLU &kp F1    &kp F2    &kp F3    &kp F4                                  &kp F13   &kp F14   &kp F15   &kp F16   &none     &none
     &kp SLCK  &kp K_MUTE &kp F5    &kp F6    &kp F7    &kp F8                                  &kp F17   &kp F18   &kp F19   &kp F20   &none     &none
     &kp CLCK  &kp VOLD   &kp F9    &kp F10   &kp F11   &kp F12                                 &kp F21   &kp F22   &kp F23   &kp F24   &none     &none
-                         &none     &none    &kp K_PREV &kp K_PP &kp K_NEXT         &kp C_BRI_UP &kp C_BRI_DN               &none
+                         &none     &none    &kp C_PREV &kp C_PP &kp C_NEXT         &kp C_BRI_UP &kp C_BRI_DN               &none
             >;
 
         };
@@ -133,4 +133,4 @@
         };
 
     };
-};
+};  
